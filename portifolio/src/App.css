@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    color: aquamarine;
+}
+nav{
+    text-align: center;
+    margin: 30px;
+}
+nav button{
+   padding: 10px 50px; 
+   border: 2px solid aquamarine;
+   background-color: pink;
+}
+.item{
+    text-align: center;
+    padding: 30px;
+   
+}

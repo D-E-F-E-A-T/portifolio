@@ -28,7 +28,7 @@ const Home = () => {
         <button onClick={setCosmetic}>Cosmetic</button>
       </nav>
 
-      <div>
+      <div className="item">
           {filteredProduct.map(item => (
             <div key={item.id}>
                 <img src={item.src} alt={item.name}/>

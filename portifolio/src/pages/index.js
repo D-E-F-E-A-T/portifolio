@@ -21,6 +21,7 @@ const Home = () => {
   console.log(filteredProduct);
   return (
     <div>
+      <h1>Display product</h1>
       <nav>
         <button onClick={setAll}>All</button>
         <button onClick={setTech}>Tech</button>
@@ -31,7 +32,9 @@ const Home = () => {
           {filteredProduct.map(item => (
             <div key={item.id}>
                 <img src={item.src} alt={item.name}/>
-                {item.name} 
+              <br/> {item.name}
+              <br/> {item.about}
+              <br/> ${item.price}
             </div> 
           ))}
       </div>

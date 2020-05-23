@@ -16,7 +16,7 @@ const products = [
     src: camera1,
     category: ["tech", "All"],
     about:
-      " is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown prin",
+      "Lorem Ipsum Lorem Ipsum is setting industry Lorem industry's  ever the 1500s",
     price: 199,
   },
   {
